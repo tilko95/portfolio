@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <h2 class="nav-title">My Portfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="welcome-section">
+        <div class="title-grid">
+            <h1 id="about">Hello there, my name is <span>Tilen.</span></h1>
+            <h3 id="web">I am a web developer and welcome to my Portfolio</h3>
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <h1 class="title-2">Here are a few of my projects...</h1>
+
+        <div class="projects-grid">
+            <a 
+                class="project-tile" href="https://tilko95.github.io/tribute-chester/" target="_blank">
+                <img src="images/Chester.png" alt="Chester singing" class="project-image">
+                <p class="opis"><span class="marks"><</span> Tribute Page <span class="marks">/></span></p>
+            </a>
+            <a 
+                href="https://tilko95.github.io/survey/" target="_blank" class="project-tile">
+                <img src="images/survey.png" alt="survey form" class="project-image">
+                <p class="opis"><span class="marks"><</span> Survey Form <span class="marks">/></span></p>
+            </a>
+
+            <a
+                href="https://tilko95.github.io/product-page/" target="_blank" class="project-tile">
+                <img src="images/Product.png" alt="project" class="project-image">
+                <p class="opis"><span class="marks"><</span> Product Landing Pages <span class="marks">/></span></p>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="last-page">
+        <br><br><br><br><br>
+        <h1 class="noga">Lets work together...</h1>
+        <h2 class="noga">You can contact me via links that are posted bellow, or just fill the form and ask me a question.</h2>
+
+        <div id="contact">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Type in your name" class="form-input">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Type in your email" class="form-input">
+                
+                <label for="text">Comment</label>
+                <textarea name="text" id="form-text" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="submit-btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+    <footer>
+        <a href="www.facebook.com" target="_blank">Facebook</a>
+        <a href="www.twitter.com" target="blank">Twitter</a>
+        <a id="profile-link" href="https://github.com/tilko95" target="_blank">GitHub</a>
+
+    </footer>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
